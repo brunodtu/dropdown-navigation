@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="black"></div>
+  <header>
+    <div class="logo">
+      <a href=""><img src="Assets/images/logo.svg" alt="logo"/></a>
+    </div>
+    <nav>
+      <div class="left-side">
+        <ul>
+          <div class="close"><img src="Assets/images/icon-close-menu.svg"></div>
+          <li>
+            <a href="" class="features">
+              Features <img src="Assets/images/icon-arrow-down.svg"/>
+            </a>
+            <div class="dropdown-features">
+              <a href="#"><img src="Assets/images/icon-todo.svg"/>  Todo List</a>
+              <a href="#"><img src="Assets/images/icon-calendar.svg"/> Calendar</a>
+              <a href="#"><img src="Assets/images/icon-reminders.svg"/>Reminders</a>
+              <a href=""><img src="Assets/images/icon-planning.svg"/>Planning</a>
+            </div>
+        </li>
+          <li>
+            <a href="" class="company">
+              Company <img src="Assets/images/icon-arrow-down.svg"/>
+            </a>
+            <div class="dropdown-company">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <ul>
+          <li><a href="">Login</a></li>
+          <li><a href="" class="lk-rd">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="menu">
+      <img src="Assets/images/icon-menu.svg" />
+    </div>
+  </header>
+  <main>
+    <div class="main-left">
+      <h1>Make remote work</h1>
+
+      <p>Get your team in sync, no matter your location.<br> Streamline processes, 
+      create team rituals, and <br>watch productivity soar.</p>
+
+      <a href="" class="button">Learn more</a> 
+
+      <ul>
+        <li><a href=""><img src="Assets/images/client-databiz.svg" alt="databiz"></a></li>
+        <li><a href=""><img src="Assets/images/client-audiophile.svg" alt="audiophile"></a></li>
+        <li><a href=""><img src="Assets/images/client-meet.svg" alt="meet"></a></li>
+        <li><a href=""><img src="Assets/images/client-maker.svg" alt="maker"></a></li>
+      </ul>
+    </div>
+    <div class="main-right">
+      <img id="desktop" src="Assets/images/image-hero-desktop.png" alt="art" />
+      <img id="mobile" src="Assets/images/image-hero-mobile.png" alt="art-mobile"/>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+  <script src="Assets/JS/script.js"></script>
+</body>
+</html>
